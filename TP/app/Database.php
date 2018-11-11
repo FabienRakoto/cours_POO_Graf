@@ -28,14 +28,15 @@ class Database
         if ($this->pdo === null) {
             $pdo = new PDO('mysql:dbname=blog;host=localhost', 'root', '');// initialiser
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // définir attribue
+            $pdo->exec('SET NAMES UTF8');
             $this->pdo = $pdo; // stoker dans l'instance
         }
         return $this->pdo;
     }
 
-    public function query($statement)
+    public function query($statement, $classe_name)
     {
         $req = $this->getPDO()->query($statement);
-        return $req->fetchAll(PDO::FETCH_OBJ);
+        return $req->fetchAll(PDO::FETCH_CLASS, $classe_name);
     }
 }

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/app/Table/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/app/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pages/home.php" afterDir="false" />
     </list>
@@ -25,13 +28,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="php" value="7" />
+          <entry key="php" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="7" />
+          <entry key="PHP" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -39,7 +42,7 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1980" />
+          <entry key="PHP" value="2400" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -47,7 +50,7 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1980" />
+          <entry key="php" value="2400" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -70,15 +73,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="168">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
-                <element signature="e#5#10#0#PHP" expanded="true" />
-                <element signature="e#120#123#0#PHP" expanded="true" />
-                <element signature="e#128#131#0#PHP" expanded="true" />
+                <element signature="e#9#14#0#PHP" expanded="true" />
+                <element signature="e#117#120#0#PHP" expanded="true" />
+                <element signature="e#149#152#0#PHP" expanded="true" />
+                <element signature="e#199#202#0#PHP" expanded="true" />
+                <element signature="e#219#224#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/pages/templates/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP/app/Table/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <folding>
+                <element signature="e#98#143#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,11 +113,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="467">
+              <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
               <folding>
                 <element signature="e#200#447#0#PHP" expanded="true" />
-                <element signature="e#670#838#0#PHP" expanded="true" />
+                <element signature="e#914#1087#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,11 +153,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TP/app/Autoloader.php" />
-        <option value="$PROJECT_DIR$/TP/pages/templates/default.php" />
         <option value="$PROJECT_DIR$/TP/pages/single.php" />
         <option value="$PROJECT_DIR$/TP/public/index.php" />
         <option value="$PROJECT_DIR$/TP/app/Database.php" />
+        <option value="$PROJECT_DIR$/TP/pages/templates/default.php" />
         <option value="$PROJECT_DIR$/TP/pages/home.php" />
+        <option value="$PROJECT_DIR$/TP/app/Table/Article.php" />
       </list>
     </option>
   </component>
@@ -169,6 +196,32 @@
               <item name="POO_Graf" type="b2602c69:ProjectViewProjectNode" />
               <item name="POO_Graf" type="462c0819:PsiDirectoryNode" />
               <item name="TP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POO_Graf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO_Graf" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POO_Graf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO_Graf" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POO_Graf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO_Graf" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POO_Graf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO_Graf" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="POO_Graf" type="b2602c69:ProjectViewProjectNode" />
@@ -215,12 +268,12 @@
       <workItem from="1540931794543" duration="2048000" />
       <workItem from="1540933875827" duration="1498000" />
       <workItem from="1541864064780" duration="10229000" />
-      <workItem from="1541935606712" duration="2902000" />
+      <workItem from="1541935606712" duration="6839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16677000" />
+    <option name="totallyTimeSpent" value="20614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -266,13 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/pages/templates/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/pages/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -299,23 +345,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="467">
+          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
           <folding>
             <element signature="e#200#447#0#PHP" expanded="true" />
-            <element signature="e#670#838#0#PHP" expanded="true" />
+            <element signature="e#914#1087#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/pages/templates/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        <state relative-caret-position="168">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="e#5#10#0#PHP" expanded="true" />
-            <element signature="e#120#123#0#PHP" expanded="true" />
-            <element signature="e#128#131#0#PHP" expanded="true" />
+            <element signature="e#9#14#0#PHP" expanded="true" />
+            <element signature="e#117#120#0#PHP" expanded="true" />
+            <element signature="e#149#152#0#PHP" expanded="true" />
+            <element signature="e#199#202#0#PHP" expanded="true" />
+            <element signature="e#219#224#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/app/Table/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#98#143#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
