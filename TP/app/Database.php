@@ -21,8 +21,18 @@ class Database
         $this->db_host = $db_host;
     }
 
-    private function getDPO()
+    private function getPDO()
     {
+        $pdo = new \PDO('mysql:dbname=blog;host=localhost', 'root', '');
+        $pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
+        $this->pdo = $pdo;
+        return $pdo;
+    }
 
+    public function query($statement)
+    {
+        $req = $this->getPDO()->query($statement);
+        $data = $req->fetchAll(\PDO::FETCH_OBJ);
+        return $data;
     }
 }
