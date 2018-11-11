@@ -1,5 +1,6 @@
-<?php
-
-$db = new App\Database('blog');
-$data = $db->query('SELECT * FROM articles');
-var_dump($data);
+<ul>
+    <?php foreach ($db->query('SELECT * FROM articles') as $post) ?>
+    <li>
+        <a href="index.php?p=post&id=<?= $post->id; ?>"><?= $post->titre; ?></a>
+    </li>
+</ul>

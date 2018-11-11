@@ -29,9 +29,7 @@ class Database
             $pdo = new PDO('mysql:dbname=blog;host=localhost', 'root', '');// initialiser
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // définir attribue
             $this->pdo = $pdo; // stoker dans l'instance
-//            var_dump('getPDO initialiser');
         }
-//        var_dump('getPDO called');
         return $this->pdo;
     }
 
