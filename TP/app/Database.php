@@ -5,6 +5,8 @@
  */
 namespace App;
 
+use PDO;
+
 class Database
 {
     private $db_name;
@@ -22,17 +24,20 @@ class Database
     }
 
     private function getPDO()
-    {
-        $pdo = new \PDO('mysql:dbname=blog;host=localhost', 'root', '');
-        $pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
-        $this->pdo = $pdo;
-        return $pdo;
+    { // si mon objet, donc database n'a pas propriété pdo
+        if ($this->pdo === null) {
+            $pdo = new PDO('mysql:dbname=blog;host=localhost', 'root', '');// initialiser
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // définir attribue
+            $this->pdo = $pdo; // stoker dans l'instance
+//            var_dump('getPDO initialiser');
+        }
+//        var_dump('getPDO called');
+        return $this->pdo;
     }
 
     public function query($statement)
     {
         $req = $this->getPDO()->query($statement);
-        $data = $req->fetchAll(\PDO::FETCH_OBJ);
-        return $data;
+        return $req->fetchAll(PDO::FETCH_OBJ);
     }
 }

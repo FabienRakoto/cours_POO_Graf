@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/app/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1598" />
+          <entry key="PHP" value="1834" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -48,7 +47,7 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1598" />
+          <entry key="php" value="1834" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -62,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="364">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -80,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="467">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
               <folding>
                 <element signature="e#200#447#0#PHP" expanded="true" />
                 <element signature="e#670#838#0#PHP" expanded="true" />
@@ -123,11 +122,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TP/app/Autoloader.php" />
-        <option value="$PROJECT_DIR$/TP/public/index.php" />
         <option value="$PROJECT_DIR$/TP/pages/templates/default.php" />
         <option value="$PROJECT_DIR$/TP/pages/single.php" />
         <option value="$PROJECT_DIR$/TP/pages/home.php" />
         <option value="$PROJECT_DIR$/TP/app/Database.php" />
+        <option value="$PROJECT_DIR$/TP/public/index.php" />
       </list>
     </option>
   </component>
@@ -211,12 +210,12 @@
       <workItem from="1540931794543" duration="2048000" />
       <workItem from="1540933875827" duration="1498000" />
       <workItem from="1541864064780" duration="10229000" />
-      <workItem from="1541935606712" duration="646000" />
+      <workItem from="1541935606712" duration="2425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14421000" />
+    <option name="totallyTimeSpent" value="16200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -293,21 +292,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="467">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
           <folding>
             <element signature="e#200#447#0#PHP" expanded="true" />
             <element signature="e#670#838#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
