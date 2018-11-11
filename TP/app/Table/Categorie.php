@@ -7,15 +7,11 @@
 namespace App\Table;
 
 
-class Categorie
+class Categorie extends Table
 {
-    private static $table = 'categories';
 
-    public static function all()
+    public function getUrl() :string
     {
-        return App::getDatabase()->query('
-              SELECT *
-              FROM '. self::$table . '
-              ', __CLASS__);
+        return 'index.php?p=categorie&id=' .$this->id;
     }
 }

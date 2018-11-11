@@ -8,7 +8,7 @@ namespace App\Table;
 
 use App\App;
 
-class Article
+class Article extends Table
 {
     public static function getLast()
     {
@@ -18,13 +18,6 @@ class Article
               LEFT JOIN categories 
               ON category_id = categories.id
               ', __CLASS__);
-    }
-
-    public function __get($key)
-    {
-        $method = 'get' . ucfirst($key);
-        $this->$key = $this->$method();
-        return $this->$key;
     }
 
     public function getUrl() :string
