@@ -24,12 +24,12 @@ class Database
     }
 
     private function getPDO()
-    { // si mon objet, donc database n'a pas propriété pdo
+    {
         if ($this->pdo === null) {
-            $pdo = new PDO('mysql:dbname=blog;host=localhost', 'root', '');// initialiser
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // définir attribue
+            $pdo = new PDO('mysql:dbname=blog;host=localhost', 'root', '');
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->exec('SET NAMES UTF8');
-            $this->pdo = $pdo; // stoker dans l'instance
+            $this->pdo = $pdo;
         }
         return $this->pdo;
     }
