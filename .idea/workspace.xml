@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/app/Table/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/app/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/app/Table/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Table/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/pages/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pages/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="2400" />
+          <entry key="PHP" value="2920" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -50,7 +51,7 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="2400" />
+          <entry key="php" value="2920" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -67,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="504">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -76,13 +77,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="84">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding>
                 <element signature="e#9#14#0#PHP" expanded="true" />
                 <element signature="e#117#120#0#PHP" expanded="true" />
                 <element signature="e#149#152#0#PHP" expanded="true" />
-                <element signature="e#199#202#0#PHP" expanded="true" />
+                <element signature="e#178#181#0#PHP" expanded="true" />
                 <element signature="e#219#224#0#PHP" expanded="true" />
               </folding>
             </state>
@@ -98,25 +99,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Table/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="196">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <element signature="e#98#143#0#PHP" expanded="true" />
+                <element signature="e#98#181#0#PHP" expanded="true" />
+                <element signature="e#169#267#0#PHP" expanded="true" />
+                <element signature="e#264#482#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP/app/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="551">
+              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
               <folding>
                 <element signature="e#200#447#0#PHP" expanded="true" />
+                <element signature="e#463#908#0#PHP" expanded="true" />
                 <element signature="e#914#1087#0#PHP" expanded="true" />
               </folding>
             </state>
@@ -126,8 +130,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/pages/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            <state relative-caret-position="168">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#5#0#PHP" expanded="true" />
+                <element signature="e#107#110#0#PHP" expanded="true" />
+                <element signature="e#136#139#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,12 +162,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TP/app/Autoloader.php" />
-        <option value="$PROJECT_DIR$/TP/pages/single.php" />
-        <option value="$PROJECT_DIR$/TP/public/index.php" />
-        <option value="$PROJECT_DIR$/TP/app/Database.php" />
         <option value="$PROJECT_DIR$/TP/pages/templates/default.php" />
-        <option value="$PROJECT_DIR$/TP/pages/home.php" />
         <option value="$PROJECT_DIR$/TP/app/Table/Article.php" />
+        <option value="$PROJECT_DIR$/TP/pages/home.php" />
+        <option value="$PROJECT_DIR$/TP/public/index.php" />
+        <option value="$PROJECT_DIR$/TP/pages/single.php" />
+        <option value="$PROJECT_DIR$/TP/app/Database.php" />
       </list>
     </option>
   </component>
@@ -268,12 +277,12 @@
       <workItem from="1540931794543" duration="2048000" />
       <workItem from="1540933875827" duration="1498000" />
       <workItem from="1541864064780" duration="10229000" />
-      <workItem from="1541935606712" duration="6839000" />
+      <workItem from="1541935606712" duration="8893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20614000" />
+    <option name="totallyTimeSpent" value="22668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -319,37 +328,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/pages/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="e#99#205#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="e#200#447#0#PHP" expanded="true" />
-            <element signature="e#914#1087#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -363,13 +347,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding>
             <element signature="e#9#14#0#PHP" expanded="true" />
             <element signature="e#117#120#0#PHP" expanded="true" />
             <element signature="e#149#152#0#PHP" expanded="true" />
-            <element signature="e#199#202#0#PHP" expanded="true" />
+            <element signature="e#178#181#0#PHP" expanded="true" />
             <element signature="e#219#224#0#PHP" expanded="true" />
           </folding>
         </state>
@@ -377,10 +361,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Table/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="196">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <element signature="e#98#143#0#PHP" expanded="true" />
+            <element signature="e#98#181#0#PHP" expanded="true" />
+            <element signature="e#169#267#0#PHP" expanded="true" />
+            <element signature="e#264#482#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/pages/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#107#110#0#PHP" expanded="true" />
+            <element signature="e#136#139#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/app/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="e#200#447#0#PHP" expanded="true" />
+            <element signature="e#463#908#0#PHP" expanded="true" />
+            <element signature="e#914#1087#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
