@@ -9,6 +9,7 @@ namespace App\Table;
 
 class Categorie extends Table
 {
+    protected static $table = 'categories';
 
     public function getUrl() :string
     {

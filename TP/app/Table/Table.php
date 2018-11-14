@@ -15,18 +15,36 @@ class Table
     private static function getTable()
     {
         if(static::$table === null) {
-            $class_name = explode('\\', \get_called_class());
+            $class_name = explode('\\', static::class);
             static::$table = strtolower(end($class_name)) . 's';
         }
         return static::$table;
     }
 
-    public static function all()
+    public static function find($id)
+    {
+        return static::query('
+        SELECT *
+        FROM '.static ::getTable().'
+        WHERE id = ?
+        ', [$id], true);
+    }
+
+    public static function query($statement, $attributes = null, $one = false)
+    {
+        if ($attributes) {
+            return App::getDatabase()->prepare($statement, $attributes, static::class, $one);
+        }
+        return App::getDatabase()->query($statement, static::class, $one);
+
+    }
+
+    public static function all() :array
     {
         return App::getDatabase()->query('
               SELECT *
               FROM '. static::getTable() . '
-              ', \get_called_class());
+              ', static::class);
     }
 
     public function __get($key)

@@ -16,11 +16,17 @@ class App
 
     private static $database;
 
-    public static function getDatabase()
+    public static function getDatabase() : Database
     {
         if (self::$database === null) {
             self::$database = new Database(self::DB_NAME, self::DB_USER, self::DB_PASS, self::DB_HOST);
         }
         return self::$database;
+    }
+
+    public static function notFound()
+    {
+        header('HTTP/1.0 404 Not Found');
+        header('Location:index.php?p=404');
     }
 }
