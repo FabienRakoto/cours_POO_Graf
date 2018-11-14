@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/pages/categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/app/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/app/Table/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Table/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/app/Table/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Table/Categorie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/app/Table/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Table/Table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/pages/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pages/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +40,7 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4882" />
+          <entry key="PHP" value="4892" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="22" />
         </counts>
@@ -58,7 +49,7 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4904" />
+          <entry key="php" value="4914" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -123,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP/app/Table/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="308">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="e#126#450#0#PHP" expanded="true" />
                 <element signature="e#456#800#0#PHP" expanded="true" />
@@ -138,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Table/Categorie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="196">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="e#118#217#0#PHP" expanded="true" />
               </folding>
@@ -181,10 +172,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Table/Table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="224">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <element signature="e#138#390#0#PHP" expanded="true" />
                 <element signature="e#390#515#0#PHP" expanded="true" />
                 <element signature="e#600#870#0#PHP" expanded="true" />
                 <element signature="e#876#1067#0#PHP" expanded="true" />
@@ -215,13 +205,13 @@
         <option value="$PROJECT_DIR$/TP/pages/home.php" />
         <option value="$PROJECT_DIR$/TP/public/index.php" />
         <option value="$PROJECT_DIR$/TP/app/Database.php" />
-        <option value="$PROJECT_DIR$/TP/app/Table/Table.php" />
         <option value="$PROJECT_DIR$/TP/app/App.php" />
         <option value="$PROJECT_DIR$/TP/pages/categorie.php" />
         <option value="$PROJECT_DIR$/TP/app/Table/Post.php" />
         <option value="$PROJECT_DIR$/TP/pages/single.php" />
         <option value="$PROJECT_DIR$/TP/app/Table/Article.php" />
         <option value="$PROJECT_DIR$/TP/app/Table/Categorie.php" />
+        <option value="$PROJECT_DIR$/TP/app/Table/Table.php" />
       </list>
     </option>
   </component>
@@ -374,12 +364,12 @@
       <workItem from="1541864064780" duration="10229000" />
       <workItem from="1541935606712" duration="15309000" />
       <workItem from="1542228737307" duration="7000" />
-      <workItem from="1542228776544" duration="6156000" />
+      <workItem from="1542228776544" duration="6407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35247000" />
+    <option name="totallyTimeSpent" value="35498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -467,20 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Table/Table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="e#138#390#0#PHP" expanded="true" />
-            <element signature="e#390#515#0#PHP" expanded="true" />
-            <element signature="e#600#870#0#PHP" expanded="true" />
-            <element signature="e#876#1067#0#PHP" expanded="true" />
-            <element signature="e#1073#1221#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/App.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -529,25 +505,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Table/Article.php">
+    <entry file="file://$PROJECT_DIR$/TP/app/Table/Table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="224">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#126#450#0#PHP" expanded="true" />
-            <element signature="e#456#800#0#PHP" expanded="true" />
-            <element signature="e#806#903#0#PHP" expanded="true" />
-            <element signature="e#909#1126#0#PHP" expanded="true" />
+            <element signature="e#390#515#0#PHP" expanded="true" />
+            <element signature="e#600#870#0#PHP" expanded="true" />
+            <element signature="e#876#1067#0#PHP" expanded="true" />
+            <element signature="e#1073#1221#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Table/Categorie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="196">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#118#217#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/app/Table/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#126#450#0#PHP" expanded="true" />
+            <element signature="e#456#800#0#PHP" expanded="true" />
+            <element signature="e#806#903#0#PHP" expanded="true" />
+            <element signature="e#909#1126#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
