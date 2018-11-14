@@ -14,11 +14,13 @@ if($categorie === false){
 
 $articles = Article::lastByCategory($_GET['id']);
 $categories = Categorie::all();
+
+
 ?>
 <h1><?= $categorie->titre; ?></h1>
 <div class="row">
     <div class="col-sm-8">
-        <?php foreach ($articles as $post): ?>
+        <?php foreach ($articles as $post): App::setTitle($post->titre); ?>
 
             <h2><a href="<?= $post->url; ?>"><?= $post->titre; ?></a></h2>
             <p><em><?= $post->categorie; ?></em></p>
