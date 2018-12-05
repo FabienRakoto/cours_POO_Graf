@@ -6,41 +6,18 @@
 
 namespace App\Table;
 
-use App\App;
 
 class Table
 {
+    protected $table;
 
-    public static function find($id)
+    public function __construct()
     {
-        return static::query('
-        SELECT *
-        FROM '.static::$table.'
-        WHERE id = ?
-        ', [$id], true);
-    }
-
-    public static function query($statement, $attributes = null, $one = false)
-    {
-        if ($attributes) {
-            return App::getDatabase()->prepare($statement, $attributes, static::class, $one);
+        if ($this->table === null) {
+            $parts = explode('\\', get_class($this));
+            $class_name = end($parts);
+            $this->table = strtolower(str_replace('Table', '', $class_name));
         }
-        return App::getDatabase()->query($statement, static::class, $one);
-
     }
 
-    public static function all() :array
-    {
-        return App::getDatabase()->query('
-              SELECT *
-              FROM '. static::$table . '
-              ', static::class);
-    }
-
-    public function __get($key)
-    {
-        $method = 'get' . ucfirst($key);
-        $this->$key = $this->$method();
-        return $this->$key;
-    }
 }

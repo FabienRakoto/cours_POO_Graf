@@ -1,10 +1,10 @@
 <?php
 
 use App\App;
-use App\Table\Article;
+use App\Table\PostsTable;
 
 
-$post = Article::find($_GET['id']);
+$post = PostsTable::find($_GET['id']);
 if($post === false){
     App::notFound();
 }

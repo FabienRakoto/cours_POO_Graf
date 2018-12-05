@@ -7,8 +7,13 @@
 require '../app/Autoloader.php';
 App\Autoloader::register();
 
-$config = App\Config::getInstance();
 $app = App\App::getInstance();
 
+$posts = $app->getTable('Posts');
+
+echo '<pre>';
+var_dump($posts);
+
+echo '</pre>';
 
 

@@ -3,17 +3,17 @@
  * POO_Graf - categorie.php
  * User: Trinh
  */
-use App\Table\Article;
-use App\Table\Categorie;
+use App\Table\PostsTable;
+use App\Table\CategoriesTable;
 use App\App;
 
-$categorie = Categorie::find($_GET['id']);
+$categorie = CategoriesTable::find($_GET['id']);
 if($categorie === false){
     App::notFound();
 }
 
-$articles = Article::lastByCategory($_GET['id']);
-$categories = Categorie::all();
+$articles = PostsTable::lastByCategory($_GET['id']);
+$categories = CategoriesTable::all();
 
 
 ?>
