@@ -6,6 +6,7 @@
 
 namespace App;
 
+use App\Database\Database;
 
 class App
 {
@@ -27,7 +28,7 @@ class App
     public function getTable($name)
     {
         $class_name = '\\App\\Table\\' . ucfirst($name) . 'Table';
-        return new $class_name();
+        return new $class_name($this->getDb());
     }
 
     public function getDb()

@@ -11,9 +11,6 @@ $app = App\App::getInstance();
 
 $posts = $app->getTable('Posts');
 
-echo '<pre>';
-var_dump($posts);
 
-echo '</pre>';
 
 
