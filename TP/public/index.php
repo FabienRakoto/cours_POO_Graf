@@ -16,10 +16,10 @@ if(isset($_GET['page'])){
 ob_start();
 if($page === 'home'){
     require ROOT . '/pages/posts/home.php';
-} elseif ($page === 'posts'){
-    require ROOT . '/pages/posts/single.php';
-} elseif ($page === 'categorie') {
-    require ROOT.'/pages/posts/categorie.php';
+} elseif ($page === 'posts.show'){
+    require ROOT . '/pages/posts/show.php';
+} elseif ($page === 'posts.category') {
+    require ROOT.'/pages/posts/category.php';
 }
 $content = ob_get_clean();
 

@@ -3,7 +3,7 @@
         <?php foreach (App::getInstance()->getTable('Post')->last() as $post): ?>
 
             <h2><a href="<?= $post->url; ?>"><?= $post->titre; ?></a></h2>
-            <p><em><?= $post->categorie; ?></em></p>
+            <p><em><?= $post->category; ?></em></p>
             <p><?= $post->extrait; ?></p>
 
         <?php endforeach; ?>
@@ -11,8 +11,8 @@
 
     <div class="col-sm-4">
         <ul>
-            <?php foreach (App::getInstance()->getTable('Category')->all() as $categorie): ?>
-                <li><a href="<?= $categorie->url; ?>"><?= $categorie->titre; ?></a></li>
+            <?php foreach (App::getInstance()->getTable('Category')->all() as $category): ?>
+                <li><a href="<?= $category->url; ?>"><?= $category->titre; ?></a></li>
             <?php endforeach; ?>
         </ul>
     </div>
