@@ -3,7 +3,7 @@
  * POO_Graf - Database.php
  * User: Trinh
  */
-namespace App\Database;
+namespace Core\Database;
 
 use PDO;
 

@@ -3,24 +3,22 @@
  * POO_Graf - categorie.php
  * User: Trinh
  */
-use App\Table\PostsTable;
-use App\Table\CategoriesTable;
-use App\App;
 
-$categorie = CategoriesTable::find($_GET['id']);
+
+$categorie = App::getInstance()->getTable('Category')->find($_GET['id']);
 if($categorie === false){
-    App::notFound();
+    App::getInstance()->getTable('Category')->notFound();
 }
 
-$articles = PostsTable::lastByCategory($_GET['id']);
-$categories = CategoriesTable::all();
+$posts = App::getInstance()->getTable('Post')->lastByCategory($_GET['id']);
+$categories = App::getInstance()->getTable('Category')->all();
 
 
 ?>
 <h1><?= $categorie->titre; ?></h1>
 <div class="row">
     <div class="col-sm-8">
-        <?php foreach ($articles as $post): App::setTitle($post->titre); ?>
+        <?php foreach ($posts as $post): ?>
 
             <h2><a href="<?= $post->url; ?>"><?= $post->titre; ?></a></h2>
             <p><em><?= $post->categorie; ?></em></p>

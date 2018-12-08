@@ -4,7 +4,7 @@
  * User: Trinh
  */
 
-namespace App;
+namespace Core;
 
 
 class Config
@@ -12,15 +12,15 @@ class Config
     private $settings = [];
     private static $_instance;
 
-    public function __construct()
+    public function __construct($file)
     {
-        $this->settings = require \dirname(__DIR__) . '/config/config.php';
+        $this->settings = require($file);
     }
 
-    public static function getInstance() : Config
+    public static function getInstance($file) : Config
     {
         if(self::$_instance === null){
-            self::$_instance = new Config();
+            self::$_instance = new Config($file);
         }
         return self::$_instance;
     }

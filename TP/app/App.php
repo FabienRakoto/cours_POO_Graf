@@ -4,9 +4,8 @@
  * User: Trinh
  */
 
-namespace App;
-
-use App\Database\Database;
+use Core\Database\Database;
+use Core\Config;
 
 class App
 {
@@ -33,7 +32,7 @@ class App
 
     public function getDb()
     {
-        $config = Config::getInstance();
+        $config = Config::getInstance(ROOT . '/config/config.php');
         if ($this->db_instance === null) {
              $this->db_instance = new Database(
                 $config->get('db_name'),
@@ -43,5 +42,14 @@ class App
             );
         }
         return $this->db_instance;
+    }
+
+    public static function load()
+    {
+        session_start();
+        require ROOT . '/app/Autoloader.php';
+        App\Autoloader::register();
+        require ROOT . '/core/Autoloader.php';
+        Core\Autoloader::register();
     }
 }
