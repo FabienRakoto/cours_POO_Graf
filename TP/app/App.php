@@ -14,9 +14,9 @@ class App
     private $db_instance;
 
     /**
-     * @return mixed
+     * @return App
      */
-    public static function getInstance()
+    public static function getInstance() : \App
     {
         if(self::$_instance === null){
             self::$_instance = new self();
@@ -24,13 +24,20 @@ class App
         return self::$_instance;
     }
 
+    /**
+     * @param $name
+     * @return mixed
+     */
     public function getTable($name)
     {
         $class_name = '\\App\\Table\\' . ucfirst($name) . 'Table';
         return new $class_name($this->getDb());
     }
 
-    public function getDb()
+    /**
+     * @return Database
+     */
+    public function getDb() : Database
     {
         $config = Config::getInstance(ROOT . '/config/config.php');
         if ($this->db_instance === null) {
@@ -44,12 +51,26 @@ class App
         return $this->db_instance;
     }
 
-    public static function load()
+
+    public static function load() : void
     {
         session_start();
         require ROOT . '/app/Autoloader.php';
         App\Autoloader::register();
         require ROOT . '/core/Autoloader.php';
         Core\Autoloader::register();
+    }
+
+    public function forbidden() : void
+    {
+        header('HTTP/1.0 403 Forbidden');
+        die('Acces interdit');
+    }
+
+    public function notFound() :void
+    {
+        header('HTTP/1.0 404 Not Found');
+        die('Page introuvable');
+//        header('Location:index.php?p=404');
     }
 }

@@ -52,9 +52,4 @@ class Table
         return $this->query('SELECT * FROM ' . $this->table . ' WHERE id = ? ', [$id], true);
     }
 
-    public function notFound()
-    {
-        header('HTTP/1.0 404 Not Found');
-        header('Location:index.php?p=404');
-    }
 }
