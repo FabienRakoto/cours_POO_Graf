@@ -9,9 +9,13 @@ use Core\Auth\DBAuth;
 if(!empty($_POST)){
     $auth = new DBAuth(App::getInstance()->getDb());
     if($auth->login($_POST['username'], $_POST['password'])){
-        die('Connecte');
+        header('Location: admin.php');
     }
-    die('Pas connecte');
+    ?>
+    <div class="alert alert-danger">
+        Indentifiant incorrect
+    </div>
+    <?php
 }
 $form = new BootstrapForm($_POST);
 ?>
