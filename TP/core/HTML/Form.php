@@ -40,6 +40,9 @@ class Form
      */
     protected function getValue($index)
     {
+        if(is_object($this->data)){ // vérifier si la variable $this->data, non le tableau
+            return $this->data->$index;
+        }
         return $this->data[$index] ?? null; // isset($this->data[$index]) ? $this->data[$index] : null;
     }
 
