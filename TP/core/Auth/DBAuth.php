@@ -53,6 +53,7 @@ class DBAuth
     }
 
     /**
+     * Vérifier si l'utilisateur est connecté : Vérifier dans la session s'il y a l'utilisateur
      * @return boolean
      */
     public function logged() : bool
