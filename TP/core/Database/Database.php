@@ -15,6 +15,13 @@ class Database
     private $db_host;
     private $pdo;
 
+    /**
+     * Database constructor.
+     * @param string $db_name
+     * @param string $db_user
+     * @param string $db_pass
+     * @param string $db_host
+     */
     public function __construct($db_name = 'blog', $db_user = 'root', $db_pass = '', $db_host = 'localhost')
     {
         $this->db_name = $db_name;
@@ -23,6 +30,9 @@ class Database
         $this->db_host = $db_host;
     }
 
+    /**
+     * @return PDO
+     */
     private function getPDO() : PDO
     {
         if ($this->pdo === null) {
@@ -34,6 +44,12 @@ class Database
         return $this->pdo;
     }
 
+    /**
+     * @param $statement
+     * @param null $class_name
+     * @param bool $one
+     * @return array|false|mixed|\PDOStatement
+     */
     public function query($statement, $class_name = null, $one = false)
     {
         $req = $this->getPDO()->query($statement);
@@ -60,6 +76,13 @@ class Database
         return $data;
     }
 
+    /**
+     * @param $statement
+     * @param $attributes
+     * @param null $class_name
+     * @param bool $one
+     * @return array|bool|mixed
+     */
     public function prepare($statement, $attributes, $class_name = null, $one = false)
     {
         $req = $this->getPDO()->prepare($statement);
@@ -86,5 +109,13 @@ class Database
         }
 
         return $data;
+    }
+
+    /**
+     * @return string
+     */
+    public function lastInsertId() : string
+    {
+        return $this->getPDO()->lastInsertId();
     }
 }

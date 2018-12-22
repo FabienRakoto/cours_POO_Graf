@@ -78,13 +78,30 @@ class Table
     {
         $sql_parts = [];
         $attributes = [];
+        foreach ($fields as $key => $value){ //on n'injectera pas $value, on doit faire un requête préparé
+            $sql_parts[] = "$key = ?";
+            $attributes[] = $value; // on inscrémente à chaque fois de la valeur
+        }
+        $attributes[] = $id; // ajouter un dernier valeur : id
+        $sql_parts = implode(',',$sql_parts);
+        return $this->query('UPDATE ' . $this->table . ' SET '. $sql_parts . ' WHERE id = ?', $attributes, true);
+        // SET $key='valeur', premier point d'interogation, on a la valeur de la clé titre, deuxième point d'interogation correspond à contenu, 3e est catégory, et le 4e point d'interogation ajouté en dernier correspond à WHERE id = ?
+    }
+
+    /**
+     * @param $fields
+     * @return array|bool|false|mixed|\PDOStatement
+     */
+    public function create($fields)
+    {
+        $sql_parts = [];
+        $attributes = [];
         foreach ($fields as $key => $value){
             $sql_parts[] = "$key = ?";
             $attributes[] = $value;
         }
-        $attributes[] = $id;
         $sql_parts = implode(',',$sql_parts);
-        return $this->query('UPDATE ' . $this->table . ' SET '. $sql_parts . ' WHERE id = ?', $attributes, true);
+        return $this->query("INSERT INTO {$this->table} SET $sql_parts", $attributes, true);
     }
 
     /**
