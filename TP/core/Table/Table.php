@@ -104,6 +104,11 @@ class Table
         return $this->query("INSERT INTO {$this->table} SET $sql_parts", $attributes, true);
     }
 
+    public function delete($id)
+    {
+        return $this->query('DELETE FROM ' . $this->table . ' WHERE id = ?', [$id], true);
+    }
+
     /**
      * @param $key
      * @param $value

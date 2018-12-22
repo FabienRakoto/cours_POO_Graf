@@ -16,9 +16,6 @@ if (!empty($_POST)){
     ]);
     if($result){
         header('Location: admin.php?page=posts.edit&id=' . $app->getDb()->lastInsertId());
-        ?>
-            <div class="alert alert-success">L'article a bien été crée</div>
-        <?php
     }
 }
 $categories = $app->getTable('Category')->extract('id', 'titre');
