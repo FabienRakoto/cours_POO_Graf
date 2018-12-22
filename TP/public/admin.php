@@ -29,6 +29,8 @@ if($page === 'home'){
     require ROOT . '/pages/admin/posts/edit.php';
 } elseif ($page === 'posts.add') {
     require ROOT.'/pages/admin/posts/add.php';
+} elseif ($page === 'posts.delete') {
+    require ROOT.'/pages/admin/posts/delete.php';
 }
 
 $content = ob_get_clean();
