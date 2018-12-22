@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +32,8 @@
         <entry file="file://$PROJECT_DIR$/TP/core/Database/Database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2120">
-              <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding>
-                <element signature="e#385#641#0#PHP" expanded="true" />
-                <element signature="e#682#1021#0#PHP" expanded="true" />
-                <element signature="e#1170#1822#0#PHP" expanded="true" />
-                <element signature="e#1982#2743#0#PHP" expanded="true" />
                 <element signature="e#2787#2886#0#PHP" expanded="true" />
               </folding>
             </state>
@@ -70,9 +64,6 @@
               <folding>
                 <element signature="e#0#5#0#PHP" expanded="true" />
                 <element signature="e#606#609#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="e#745#748#0#PHP" expanded="true" />
-                <element signature="e#844#847#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,25 +73,22 @@
         <entry file="file://$PROJECT_DIR$/TP/public/admin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="580">
-              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP/pages/admin/posts/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/pages/admin/posts/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+            <state relative-caret-position="804">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#5#0#PHP" expanded="true" />
+                <element signature="e#591#594#0#PHP" expanded="true" />
+                <element signature="e#648#651#0#PHP" expanded="true" />
+                <element signature="e#719#722#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +102,6 @@
                 <element signature="e#860#1357#0#PHP" expanded="true" />
                 <element signature="e#1449#1580#0#PHP" expanded="true" />
                 <element signature="e#1694#2296#0#PHP" expanded="true" />
-                <element signature="e#2584#2950#0#PHP" expanded="true" />
                 <element signature="e#2953#3105#0#PHP" expanded="true" />
               </folding>
             </state>
@@ -204,11 +191,11 @@
         <option value="$PROJECT_DIR$/TP/pages/posts/show.php" />
         <option value="$PROJECT_DIR$/TP/core/Database/Database.php" />
         <option value="$PROJECT_DIR$/TP/pages/admin/posts/edit.php" />
-        <option value="$PROJECT_DIR$/TP/pages/admin/posts/add.php" />
         <option value="$PROJECT_DIR$/TP/pages/admin/posts/index.php" />
         <option value="$PROJECT_DIR$/TP/public/admin.php" />
         <option value="$PROJECT_DIR$/TP/core/Table/Table.php" />
         <option value="$PROJECT_DIR$/TP/pages/admin/posts/delete.php" />
+        <option value="$PROJECT_DIR$/TP/pages/admin/posts/add.php" />
       </list>
     </option>
   </component>
@@ -428,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122106000" />
+    <option name="totallyTimeSpent" value="123313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -679,12 +666,8 @@
     <entry file="file://$PROJECT_DIR$/TP/core/Database/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2120">
-          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding>
-            <element signature="e#385#641#0#PHP" expanded="true" />
-            <element signature="e#682#1021#0#PHP" expanded="true" />
-            <element signature="e#1170#1822#0#PHP" expanded="true" />
-            <element signature="e#1982#2743#0#PHP" expanded="true" />
             <element signature="e#2787#2886#0#PHP" expanded="true" />
           </folding>
         </state>
@@ -692,8 +675,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/pages/admin/posts/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        <state relative-caret-position="804">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#591#594#0#PHP" expanded="true" />
+            <element signature="e#648#651#0#PHP" expanded="true" />
+            <element signature="e#719#722#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +700,6 @@
           <folding>
             <element signature="e#0#5#0#PHP" expanded="true" />
             <element signature="e#606#609#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="e#745#748#0#PHP" expanded="true" />
-            <element signature="e#844#847#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -721,7 +707,7 @@
     <entry file="file://$PROJECT_DIR$/TP/public/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -746,7 +732,6 @@
             <element signature="e#860#1357#0#PHP" expanded="true" />
             <element signature="e#1449#1580#0#PHP" expanded="true" />
             <element signature="e#1694#2296#0#PHP" expanded="true" />
-            <element signature="e#2584#2950#0#PHP" expanded="true" />
             <element signature="e#2953#3105#0#PHP" expanded="true" />
           </folding>
         </state>
