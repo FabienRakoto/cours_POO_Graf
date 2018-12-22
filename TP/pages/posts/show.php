@@ -9,5 +9,6 @@ $app->title = $post->titre;
 
 ?>
 <h1><?= $post->titre; ?></h1>
-<em><?= $post->category; ?></em>
+<p>Crée le : <?= $post->date; ?></p>
+<em>Catégorie : <?= $post->category; ?></em>
 <p><?= $post->contenu; ?></p>

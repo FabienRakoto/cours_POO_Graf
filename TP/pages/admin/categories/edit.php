@@ -14,7 +14,7 @@ if (!empty($_POST)){
     ]);
     if($result){
         ?>
-            <div class="alert alert-success">Le catégorie a bien été modifié</div>
+            <div class="alert alert-success">La catégorie a bien été modifiée</div>
         <?php
     }
 }
@@ -24,6 +24,6 @@ $form = new BootstrapForm($category);
 ?>
 
 <form method="post">
-    <?= $form->input('titre', 'Titre de catégorie'); ?>
+    <?= $form->input('titre', 'Titre de la catégorie'); ?>
     <button class="btn btn-primary">Sauvegarder</button>
 </form>

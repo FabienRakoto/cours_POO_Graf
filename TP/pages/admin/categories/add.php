@@ -13,13 +13,13 @@ if (!empty($_POST)){
             'titre' => $_POST['titre']
     ]);
     if($result){
-        header('Location: admin.php?page=caterories.edit&id=' . $app->getDb()->lastInsertId());
+        header('Location: admin.php');
     }
 }
 $form = new BootstrapForm($_POST);
 ?>
 
 <form method="post">
-    <?= $form->input('titre', 'Titre de catégorie'); ?>
+    <?= $form->input('titre', 'Titre de la catégorie'); ?>
     <button class="btn btn-primary">Sauvegarder</button>
 </form>
