@@ -22,8 +22,11 @@ if($page === 'home') {
 } elseif ($page === 'posts.category'){
     $controller = new \App\Controller\PostsController();
     $controller->category();
+} elseif ($page === 'admin.posts.index'){
+    $controller = new \App\Controller\Admin\PostsController();
+    $controller->index();
 } elseif ($page === 'login'){
-    $controller = new \App\Controller\UsersController();
+    $controller = new \App\Controller\Admin\UsersController();
     $controller->login();
 }
 

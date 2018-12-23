@@ -8,7 +8,7 @@ namespace App\Controller;
 
 
 use Core\Controller\Controller;
-use \App;
+use App;
 
 class AppController extends Controller
 {

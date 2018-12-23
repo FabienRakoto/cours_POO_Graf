@@ -15,7 +15,7 @@ class Controller
     protected function render($view, $variables = []) : void
     {
         ob_start();
-        extract($variables);
+        extract($variables, EXTR_SKIP);
         require $this->viewPath . str_replace('.', '/', $view) . '.php';
         $content = ob_get_clean();
         require $this->viewPath . 'templates/' . $this->template . '.php';
