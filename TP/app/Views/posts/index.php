@@ -1,20 +1,3 @@
-<?php
-/**
- * POO_Graf - category.php
- * User: Trinh
- */
-$app = App::getInstance();
-$category = $app->getTable('Category')->find($_GET['id']);
-if($category === false){
-    $app->notFound();
-}
-
-$posts = $app->getTable('Post')->lastByCategory($_GET['id']);
-$categories = $app->getTable('Category')->all();
-
-
-?>
-<h1><?= $app->title = $category->titre; ?></h1>
 <div class="row">
     <div class="col-sm-8">
         <?php foreach ($posts as $post): ?>
@@ -34,4 +17,3 @@ $categories = $app->getTable('Category')->all();
         </ul>
     </div>
 </div>
-

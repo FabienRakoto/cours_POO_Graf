@@ -13,16 +13,32 @@ if(isset($_GET['page'])){
     $page = 'home';
 }
 
-ob_start();
-if($page === 'home'){
-    require ROOT . '/pages/posts/home.php';
+if($page === 'home') {
+    $controller = new \App\Controller\PostsController();
+    $controller->index();
 } elseif ($page === 'posts.show'){
-    require ROOT . '/pages/posts/show.php';
-} elseif ($page === 'posts.category') {
-    require ROOT.'/pages/posts/category.php';
-} elseif ($page === 'login') {
-    require ROOT.'/pages/users/login.php';
+    $controller = new \App\Controller\PostsController();
+    $controller->show();
+} elseif ($page === 'posts.category'){
+    $controller = new \App\Controller\PostsController();
+    $controller->category();
+} elseif ($page === 'login'){
+    $controller = new \App\Controller\UsersController();
+    $controller->login();
 }
-$content = ob_get_clean();
 
-require ROOT . '/pages/templates/default.php';
+
+//
+//ob_start();
+//if($page === 'home'){
+//    require ROOT.'/Views/posts/home.php';
+//} elseif ($page === 'posts.show'){
+//    require ROOT.'/Views/posts/show.php';
+//} elseif ($page === 'posts.category') {
+//    require ROOT.'/Views/posts/category.php';
+//} elseif ($page === 'login') {
+//    require ROOT.'/Views/users/login.php';
+//}
+//$content = ob_get_clean();
+//
+//require ROOT.'/Views/templates/default.php';
