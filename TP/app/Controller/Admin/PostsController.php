@@ -27,50 +27,40 @@ class PostsController extends AppController
 
     public function add()
     {
-        $success = false;
         if (!empty($_POST)){
-            $result = $this->Post->create([
+            $this->Post->create([
                 'titre' => $_POST['titre'],
                 'contenu' => $_POST['contenu'],
                 'category_id' => $_POST['category_id']
             ]);
-            if($result){
-                $success = true;
-                return $this->index();
-            }
+            return $this->index();
         }
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($_POST);
-        $this->render('admin.posts.add', compact('categories', 'form', 'success'));
+        $this->render('admin.posts.add', compact('categories', 'form'));
     }
 
     public function edit()
     {
-        $success = false;
         if (!empty($_POST)){
-            $result = $this->Post->update($_GET['id'], [
+            $this->Post->update($_GET['id'], [
                 'titre' => $_POST['titre'],
                 'contenu' => $_POST['contenu'],
                 'category_id' => $_POST['category_id']
             ]);
-            if($result){
-                $success = true;
-                return $this->index();
-            }
+            return $this->index();
         }
         $post = $this->Post->find($_GET['id']);
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($post);
-        $this->render('admin.posts.edit', compact('categories', 'form', 'success'));
+        $this->render('admin.posts.add', compact('categories', 'form'));
     }
 
     public function delete()
     {
         if (!empty($_POST)){
-            $result = $this->Post->delete($_POST['id']);
-            if($result){
-                return $this->index();
-            }
+            $this->Post->delete($_POST['id']);
+            return $this->index();
         }
     }
 

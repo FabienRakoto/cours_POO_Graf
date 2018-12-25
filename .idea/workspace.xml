@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TP/app/Controller/Admin/CategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/app/Controller/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Controller/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/app/Controller/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Controller/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/categories/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Views/admin/categories/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/categories/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/categories/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Views/admin/categories/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/posts/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Views/admin/posts/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/posts/delete.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/posts/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Views/admin/posts/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/posts/edit.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/app/Views/admin/posts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Views/admin/posts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/public/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,23 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/app/Controller/AppController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding>
-                <element signature="e#90#121#0#PHP" expanded="true" />
-                <element signature="e#311#433#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="252">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -46,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="420">
+              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="e#344#347#0#PHP" expanded="true" />
                 <element signature="e#383#386#0#PHP" expanded="true" />
@@ -60,23 +53,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php">
+        <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+            <state relative-caret-position="364">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
-                <element signature="e#98#126#0#PHP" expanded="true" />
-                <element signature="e#178#284#0#PHP" expanded="true" />
-                <element signature="e#290#424#0#PHP" expanded="true" />
-                <element signature="e#477#1087#0#PHP" expanded="true" />
-                <element signature="e#1720#1930#0#PHP" expanded="true" />
+                <element signature="e#0#5#0#PHP" expanded="true" />
+                <element signature="e#461#464#0#PHP" expanded="true" />
+                <element signature="e#504#507#0#PHP" expanded="true" />
+                <element signature="e#625#628#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="e#811#814#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/UsersController.php">
+        <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#26#29#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/CategoriesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1456">
+              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+              <folding>
+                <element signature="e#102#130#0#PHP" expanded="true" />
+                <element signature="e#141#285#0#PHP" expanded="true" />
+                <element signature="e#291#425#0#PHP" expanded="true" />
+                <element signature="e#472#815#0#PHP" expanded="true" />
+                <element signature="e#803#1203#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1652">
+              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+              <folding>
+                <element signature="e#98#126#0#PHP" expanded="true" />
+                <element signature="e#178#284#0#PHP" expanded="true" />
+                <element signature="e#337#514#0#PHP" expanded="true" />
+                <element signature="e#477#973#0#PHP" expanded="true" />
+                <element signature="e#979#1523#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/app/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -89,49 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/core/Table/Table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="106" column="31" lean-forward="true" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
-              <folding>
-                <element signature="e#611#706#0#PHP" expanded="true" />
-                <element signature="e#860#1357#0#PHP" expanded="true" />
-                <element signature="e#1449#1580#0#PHP" expanded="true" />
-                <element signature="e#2584#2947#0#PHP" expanded="true" />
-                <element signature="e#2953#3083#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#137#140#0#PHP" expanded="true" />
-                <element signature="e#194#197#0#PHP" expanded="true" />
-                <element signature="e#265#268#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="168">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#591#594#0#PHP" expanded="true" />
                 <element signature="e#648#651#0#PHP" expanded="true" />
@@ -171,9 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TP/app/Autoloader.php" />
-        <option value="$PROJECT_DIR$/TP/core/Autoloader.php" />
-        <option value="$PROJECT_DIR$/TP/app/Table/PostsTable.php" />
         <option value="$PROJECT_DIR$/TP/app/Table/CategorieTable.php" />
         <option value="$PROJECT_DIR$/TP/app/Entity/CategorieEntity.php" />
         <option value="$PROJECT_DIR$/TP/app/Entity/UserEntity.php" />
@@ -208,7 +203,6 @@
         <option value="$PROJECT_DIR$/TP/app/App.php" />
         <option value="$PROJECT_DIR$/TP/app/Views/posts/category.php" />
         <option value="$PROJECT_DIR$/TP/app/Views/posts/show.php" />
-        <option value="$PROJECT_DIR$/TP/app/Views/admin/categories/index.php" />
         <option value="$PROJECT_DIR$/TP/core/Controller/Controller.php" />
         <option value="$PROJECT_DIR$/TP/public/admin.php" />
         <option value="$PROJECT_DIR$/TP/app/Views/users/login.php" />
@@ -217,10 +211,14 @@
         <option value="$PROJECT_DIR$/TP/app/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/TP/app/Controller/PostsController.php" />
         <option value="$PROJECT_DIR$/TP/app/Views/admin/posts/delete.php" />
-        <option value="$PROJECT_DIR$/TP/app/Views/admin/posts/edit.php" />
         <option value="$PROJECT_DIR$/TP/public/index.php" />
-        <option value="$PROJECT_DIR$/TP/app/Views/admin/posts/index.php" />
+        <option value="$PROJECT_DIR$/TP/app/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/TP/app/Views/admin/posts/add.php" />
+        <option value="$PROJECT_DIR$/TP/app/Views/admin/posts/edit.php" />
+        <option value="$PROJECT_DIR$/TP/app/Views/admin/categories/add.php" />
+        <option value="$PROJECT_DIR$/TP/app/Views/admin/posts/index.php" />
+        <option value="$PROJECT_DIR$/TP/app/Views/admin/categories/index.php" />
+        <option value="$PROJECT_DIR$/TP/app/Controller/Admin/CategoriesController.php" />
         <option value="$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php" />
       </list>
     </option>
@@ -384,18 +382,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\app" />
-      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\app\Controller" />
-      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\pages\article" />
-      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\core" />
-      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\core\Table" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\pages\admin\categories" />
       <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\public" />
       <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\app" />
       <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\app\Table" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\app\Controller" />
+      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\app" />
+      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\pages\article" />
+      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\core" />
+      <recent name="F:\PHP_SYMFONY\cours\POO_Graf\TP\core\Table" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -463,12 +461,12 @@
       <workItem from="1545502995129" duration="5558000" />
       <workItem from="1545573334695" duration="14989000" />
       <workItem from="1545648655819" duration="3102000" />
-      <workItem from="1545765304414" duration="1791000" />
+      <workItem from="1545765304414" duration="6590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149017000" />
+    <option name="totallyTimeSpent" value="153816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -643,16 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#50#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -671,21 +659,6 @@
             <element signature="n#getTable#0;n#App#0;n#!!top" expanded="true" />
             <element signature="n#getDb#0;n#App#0;n#!!top" expanded="true" />
             <element signature="n#load#0;n#App#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#466#469#0#PHP" expanded="true" />
-            <element signature="e#509#512#0#PHP" expanded="true" />
-            <element signature="e#630#633#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="e#816#819#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,18 +697,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/delete.php" />
-    <entry file="file://$PROJECT_DIR$/TP/app/Controller/PostsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="e#293#490#0#PHP" expanded="true" />
-            <element signature="e#496#862#0#PHP" expanded="true" />
-            <element signature="e#868#1094#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Table/PostTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -772,13 +733,6 @@
             <element signature="e#462#465#0#PHP" expanded="true" />
             <element signature="e#486#489#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP/public/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -825,7 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/TP/app/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -836,22 +790,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/add.php">
+    <entry file="file://$PROJECT_DIR$/TP/public/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#591#594#0#PHP" expanded="true" />
-            <element signature="e#648#651#0#PHP" expanded="true" />
-            <element signature="e#719#722#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/edit.php">
+    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
           <folding>
             <element signature="e#137#140#0#PHP" expanded="true" />
             <element signature="e#194#197#0#PHP" expanded="true" />
@@ -860,24 +808,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php">
+    <entry file="file://$PROJECT_DIR$/TP/app/Controller/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        <state relative-caret-position="804">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <element signature="e#98#126#0#PHP" expanded="true" />
-            <element signature="e#178#284#0#PHP" expanded="true" />
-            <element signature="e#290#424#0#PHP" expanded="true" />
-            <element signature="e#477#1087#0#PHP" expanded="true" />
-            <element signature="e#1720#1930#0#PHP" expanded="true" />
+            <element signature="e#143#287#0#PHP" expanded="true" />
+            <element signature="e#293#490#0#PHP" expanded="true" />
+            <element signature="e#496#862#0#PHP" expanded="true" />
+            <element signature="e#868#1094#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#26#29#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#591#594#0#PHP" expanded="true" />
+            <element signature="e#648#651#0#PHP" expanded="true" />
+            <element signature="e#719#722#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/posts/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="420">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="e#344#347#0#PHP" expanded="true" />
             <element signature="e#383#386#0#PHP" expanded="true" />
@@ -888,10 +863,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/public/index.php">
+    <entry file="file://$PROJECT_DIR$/TP/app/Views/admin/categories/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="364">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#461#464#0#PHP" expanded="true" />
+            <element signature="e#504#507#0#PHP" expanded="true" />
+            <element signature="e#625#628#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#811#814#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1652">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+          <folding>
+            <element signature="e#98#126#0#PHP" expanded="true" />
+            <element signature="e#178#284#0#PHP" expanded="true" />
+            <element signature="e#337#514#0#PHP" expanded="true" />
+            <element signature="e#477#973#0#PHP" expanded="true" />
+            <element signature="e#979#1523#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/app/Controller/Admin/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding>
+            <element signature="e#102#130#0#PHP" expanded="true" />
+            <element signature="e#141#285#0#PHP" expanded="true" />
+            <element signature="e#291#425#0#PHP" expanded="true" />
+            <element signature="e#472#815#0#PHP" expanded="true" />
+            <element signature="e#803#1203#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

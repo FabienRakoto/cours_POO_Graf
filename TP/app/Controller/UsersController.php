@@ -4,7 +4,7 @@
  * User: Trinh
  */
 
-namespace App\Controller\Admin;
+namespace App\Controller;
 
 
 use Core\HTML\BootstrapForm;

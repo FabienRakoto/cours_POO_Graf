@@ -1,7 +1,3 @@
-<?php if($success): ?>
-    <div class="alert alert-success">L'article a bien été crée</div>
-<?php endif; ?>
-
 <form method="post">
     <?= $form->input('titre', 'Titre de l\'article'); ?>
     <?= $form->input('contenu', 'Contenu', ['type' => 'textarea']); ?>

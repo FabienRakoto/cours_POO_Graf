@@ -1,6 +1,6 @@
 <?php
 /**
- * POO_Graf - index.phpdd
+ * POO_Graf - index.php
  * User: Trinh
  */
 define('ROOT', dirname(__DIR__));
@@ -10,22 +10,16 @@ App::load();
 if(isset($_GET['page'])){
     $page = $_GET['page'];
 }else{
-    $page = 'home';
+    $page = 'posts.index'; // nom du controller, suivi de la route
 }
 
-if($page === 'home') {
-    $controller = new \App\Controller\PostsController();
-    $controller->index();
-} elseif ($page === 'posts.show'){
-    $controller = new \App\Controller\PostsController();
-    $controller->show();
-} elseif ($page === 'posts.category'){
-    $controller = new \App\Controller\PostsController();
-    $controller->category();
-} elseif ($page === 'admin.posts.index'){
-    $controller = new \App\Controller\Admin\PostsController();
-    $controller->index();
-} elseif ($page === 'login'){
-    $controller = new \App\Controller\Admin\UsersController();
-    $controller->login();
+$page = explode('.', $page);
+if($page[0] == 'admin'){
+    $controller = '\App\Controller\Admin\\' . ucfirst($page[1]) . 'Controller';
+    $action = $page[2];
+} else {
+    $controller = '\App\Controller\\' . ucfirst($page[0]) . 'Controller';
+    $action = $page[1];
 }
+$controller = new $controller();
+$controller->$action();
