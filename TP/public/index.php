@@ -1,6 +1,6 @@
 <?php
 /**
- * POO_Graf - index.php
+ * POO_Graf - index.phpdd
  * User: Trinh
  */
 define('ROOT', dirname(__DIR__));
@@ -29,19 +29,3 @@ if($page === 'home') {
     $controller = new \App\Controller\Admin\UsersController();
     $controller->login();
 }
-
-
-//
-//ob_start();
-//if($page === 'home'){
-//    require ROOT.'/Views/posts/home.php';
-//} elseif ($page === 'posts.show'){
-//    require ROOT.'/Views/posts/show.php';
-//} elseif ($page === 'posts.category') {
-//    require ROOT.'/Views/posts/category.php';
-//} elseif ($page === 'login') {
-//    require ROOT.'/Views/users/login.php';
-//}
-//$content = ob_get_clean();
-//
-//require ROOT.'/Views/templates/default.php';

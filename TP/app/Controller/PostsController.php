@@ -38,7 +38,6 @@ class PostsController extends AppController
 
     }
 
-
     public function show() : void
     {
         $post = $this->Post->findWithCategory($_GET['id']);

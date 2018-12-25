@@ -1,26 +1,6 @@
-<?php
-/**
- * POO_Graf - add.php
- * User: Trinh
- */
-
-use Core\HTML\BootstrapForm;
-
-$app = App::getInstance();
-$postTable = $app->getTable('Post');
-if (!empty($_POST)){
-    $result = $postTable->create([
-            'titre' => $_POST['titre'],
-            'contenu' => $_POST['contenu'],
-            'category_id' => $_POST['category_id']
-    ]);
-    if($result){
-        header('Location: admin.php?page=posts.edit&id=' . $app->getDb()->lastInsertId());
-    }
-}
-$categories = $app->getTable('Category')->extract('id', 'titre');
-$form = new BootstrapForm($_POST);
-?>
+<?php if($success): ?>
+    <div class="alert alert-success">L'article a bien été crée</div>
+<?php endif; ?>
 
 <form method="post">
     <?= $form->input('titre', 'Titre de l\'article'); ?>
