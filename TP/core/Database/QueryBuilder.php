@@ -9,14 +9,14 @@ namespace Core\Database;
 
 class QueryBuilder
 {
-    private $select = [];
+    private $fields = [];
     private $from = [];
-    private $where = [];
+    private $conditions = [];
 
 
     public function select()
     {
-        $this->select = func_get_args();
+        $this->fields = func_get_args();
         return $this;
     }
 
@@ -32,14 +32,16 @@ class QueryBuilder
 
     public function where()
     {
-        $this->where = func_get_args();
+        foreach (func_get_args() as $arg) {
+            array_push($this->conditions, $arg);
+        }
         return $this;
     }
 
     public function getQuery()
     {
-        return 'SELECT' . implode(', ', $this->select)
-            . 'FROM ' . implode(', ', $this->from)
-            . 'WHERE ' . implode(' AND ', $this->where);
+        return 'SELECT ' . implode(', ', $this->fields)
+            . ' FROM ' . implode(', ', $this->from)
+            . ' WHERE ' . implode(' AND ', $this->conditions);
     }
 }

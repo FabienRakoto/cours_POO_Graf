@@ -16,7 +16,8 @@ class DemoController extends AppController
         $query = new QueryBuilder();
         echo $query->select('id', 'titre', 'contenu')
             ->from('posts', 'posts')
-            ->where('id = 1')
+            ->where('posts.category_id = 1')
+            ->where('posts.date > NOW()')
             ->getQuery();
     }
 }
