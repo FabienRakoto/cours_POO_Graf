@@ -33,12 +33,12 @@ class QueryBuilder
     public function where()
     {
         foreach (func_get_args() as $arg) {
-            array_push($this->conditions, $arg);
+            $this->conditions[] = $arg;
         }
         return $this;
     }
 
-    public function getQuery()
+    public function __toString()
     {
         return 'SELECT ' . implode(', ', $this->fields)
             . ' FROM ' . implode(', ', $this->from)

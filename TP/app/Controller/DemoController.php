@@ -14,10 +14,10 @@ class DemoController extends AppController
     public function index()
     {
         $query = new QueryBuilder();
-        echo $query->select('id', 'titre', 'contenu')
+        echo $query
+            ->select('id', 'titre', 'contenu')
             ->from('posts', 'posts')
             ->where('posts.category_id = 1')
-            ->where('posts.date > NOW()')
-            ->getQuery();
+            ->where('posts.date > NOW()');
     }
 }

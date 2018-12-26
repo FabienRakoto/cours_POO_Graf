@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7958100a-d9e8-4b0b-984b-8916952975dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TP/app/Controller/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/app/Controller/DemoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/core/Database/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/core/Database/QueryBuilder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP/core/Database/QueryBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="e#113#186#0#PHP" expanded="true" />
                 <element signature="e#295#424#0#PHP" expanded="true" />
-                <element signature="e#533#572#0#PHP" expanded="true" />
+                <element signature="e#689#898#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/app/Controller/DemoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#124#359#0#PHP" expanded="true" />
-                <element signature="e#173#357#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="448">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -109,8 +104,8 @@
         <option value="$PROJECT_DIR$/TP/app/Views/admin/categories/index.php" />
         <option value="$PROJECT_DIR$/TP/app/Controller/Admin/CategoriesController.php" />
         <option value="$PROJECT_DIR$/TP/app/Controller/Admin/PostsController.php" />
-        <option value="$PROJECT_DIR$/TP/core/Database/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/TP/app/Controller/DemoController.php" />
+        <option value="$PROJECT_DIR$/TP/core/Database/QueryBuilder.php" />
       </list>
     </option>
   </component>
@@ -282,12 +277,12 @@
       <workItem from="1545573334695" duration="14989000" />
       <workItem from="1545648655819" duration="3102000" />
       <workItem from="1545765304414" duration="8266000" />
-      <workItem from="1545862896444" duration="2487000" />
+      <workItem from="1545862896444" duration="2730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157979000" />
+    <option name="totallyTimeSpent" value="158222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -669,25 +664,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/core/Database/QueryBuilder.php">
+    <entry file="file://$PROJECT_DIR$/TP/app/Controller/DemoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="e#113#186#0#PHP" expanded="true" />
-            <element signature="e#295#424#0#PHP" expanded="true" />
-            <element signature="e#533#572#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="448">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/app/Controller/DemoController.php">
+    <entry file="file://$PROJECT_DIR$/TP/core/Database/QueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="468">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
-            <element signature="e#124#359#0#PHP" expanded="true" />
-            <element signature="e#173#357#0#PHP" expanded="true" />
+            <element signature="e#113#186#0#PHP" expanded="true" />
+            <element signature="e#295#424#0#PHP" expanded="true" />
+            <element signature="e#689#898#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
