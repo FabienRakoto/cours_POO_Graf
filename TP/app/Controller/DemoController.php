@@ -14,9 +14,9 @@ class DemoController extends AppController
     public function index()
     {
         $query = new QueryBuilder();
-        $query->select('id', 'titre', 'contenu');
-        $query->from('posts');
-        $query->where('id = 1');
-        echo $query->getQuery();
+        echo $query->select('id', 'titre', 'contenu')
+            ->from('posts', 'posts')
+            ->where('id = 1')
+            ->getQuery();
     }
 }
